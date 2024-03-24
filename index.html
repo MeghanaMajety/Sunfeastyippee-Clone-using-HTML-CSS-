@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/itc-white(icon)2.png" />
+    <title>Sunfeastyippee</title>
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/519a911d6b.js" crossorigin="anonymous"></script>
+    <style>
+        .navbar{
+            width: 100%;
+
+        }
+        /* left side logo */
+        .navbar-brand{
+            width: 20%;
+            text-align: start;
+            /* border: 1px solid white; */
+
+        }
+
+        /* links  */
+        .navbar-collapse{
+            width: 70%;
+            /* border: 1px solid white; */
+
+        }
+        .navbar-nav{
+            width: 100%;
+            /* border: 1px solid white; */
+        }
+
+        /* itc logo */
+        .itc{
+            width: 10%;
+            /* border: 1px solid white; */
+        }
+        
+        /* media query */
+        @media (max-width:576px){
+            .hidden-mobile{
+                display:none;   
+            }
+        }
+        @media (max-width:576px){
+          .horizontal{
+            display: inline;
+            text-align: center;
+          }
+        }
+    </style>
+</head>
+<body>
+  <!--nav bar start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"  style="color:white; background-image: url(https://www.icolorpalette.com/download/solidcolorimage/fe5000_solid_color_background_icolorpalette.png);">
+        <div class="container-fluid" style="background-color: #FE5000; color: white;">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo1.png" alt="Yippee" width="50%">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color:white;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color:white;">Our Story</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color:white;">Products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white;">
+                  Recipes
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Yippee Noodles Recipes</a></li>
+                  <li><a class="dropdown-item" href="#">Yippee Paste Recipes</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"  style="color:white;">
+                  Videos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Worlds Longest Noddle slur'p Video</a></li>
+                  <li><a class="dropdown-item" href="#">Videos</a></li>
+                </ul>
+              </li>              
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color:white;">Quality Control</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color:white;">A Better World</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"style="color:white;">Contact Us</a>
+              </li>
+            </ul>
+            <div class="itc">
+                <a href="#"><img src="./images/itc-white(icon)2.png" alt="ITC" width="100%"></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!--carousel Start-->
+    <section style="background-image: url(https://www.icolorpalette.com/download/solidcolorimage/fe5000_solid_color_background_icolorpalette.png);">
+        <div class="container-fluid">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/caurosal1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/caurosal2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/caurosal3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/caurosal4.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    </section>
+    <!--Carousel End-->
+    
+    <!--section 1 start-->
+      <section class="recipes" style="margin-bottom: 100px">
+        <center>
+          <img src="images/5.png" width="225px" style="margin-top: 50px;"/>
+          <h3>add a twist to Your Favourite snack with Sunfeast YiPPee! quick and easy recipes.</h3>
+    
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-md-4 text-center"><a href="#"><img src="./images/6.png" width="350px" /></a><h5 style="color:black; font-weight: bold;"><a href="#" style="text-decoration: none; color: black;">YIPPEE! Noodles Slider</a></h5></div>
+              <div class="col-12 col-md-4 text-center"><a href="#"><img src="./images/7.png" width="350px" /></a><h5 style="color:black; font-weight: bold;"><a href="#" style="text-decoration: none; color: black;">YIPPEE! Methi Muthai</h5></div></a>
+              <div class="col-12 col-md-4 text-center"><a href="#"><img src="./images/8.png" width="350px" /></a><h5 style="color:black; font-weight: bold;"><a href="#" style="text-decoration: none; color: black;">YIPPEE! Mushroom Stir Fry</h5></div></a>
+            </div>  
+          </div>
+        </center>
+      </section>
+    <!--section 1 end-->
+    
+    <!--section 2 start-->
+        <section class="sec2">
+          <div class="container">
+            <div class="row">
+              <center>
+                <img src="./images/9.png" width="500px" style="margin-top: 100px;" />
+              </center>
+              <div class="col-12 col-lg-6  order-md-1 order-lg-2">
+                <img src="./images/10.png" width="75%" />
+              </div>
+              <div class="col-12 col-lg-6  order-md-2 order-lg-1">
+                <p><h4><b>Prep time: 10 Minutes &nbsp; Cook time: 15 Minutes<br/><br/>
+                Ingredient list</b></h4></p>
+                <h5 class="hidden-mobile">For lollipop:</h5><br/>
+                <ul style="font-size: 18px; font-weight: 600;" class="hidden-mobile">
+                  <li>1 Packet YiPPee! Noodles</li>
+                  <li>200 ml Water</li>
+                  <li>2 Tbsp Cornflour</li>
+                  <li>2 Tbsp Maida</li>
+                  <li>1 Tsp Chilli Sauce</li>
+                  <li>1 Tsp Soy Sauce</li>
+                  <li>1 Small Chopped Green Chilli</li>
+                  <li>Salt as per Taste</li>
+                </ul>
+                <h5 class="hidden-mobile">For Batter:</h5><br/>
+                <ul style="font-size: 18px; font-weight: 600;" class="hidden-mobile">
+                  <li>2 Tbsp Cornflour</li>
+                  <li>2 Tbsp Maida</li>
+                  <li>¼ Tsp Red Chilli Powder</li>
+                  <li>3 Tbsp Water</li>
+                  <li>Salt as per Taste</li>
+                </ul>
+                <a href="#" class="divsec2-a">see how...</a>
+                <a href="#" style="text-decoration: none; color: white;"><h3 class="divsec2-h3"><b>Explore More Recipes<span style="font-size: 40px;font-weight: bolder;"></span></b></h3></a>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+        <!--section 2 end-->
+    
+        <!--section 3 start-->
+        <section class="sec3">
+          <center>
+            <img src="./images/11.png" width="300px" />
+            <br/><br/>
+            <a href="#"  style="text-decoration: none;"><h3>Follow us on Instagram</h3></a>
+            <br/><br/><br/>
+            <h3>Find us on</h3>
+            <div class="sec3div">
+              <a href="#"><div><img src="./images/facebook.png" width="50px"/></div></a>
+              <a href="#"><div><img src="./images/twitter.png" width="50px" /></div></a>
+              <a href="#"><div><img src="./images/instagram.png" width="50px" /></div></a>
+              <a href="#"><div><img src="./images/youtube.png" width="50px" /></div></a>
+            </div>
+          </center>
+        </section>
+        <!--section 3 end-->
+    
+        <!--footer start-->
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+                <div class="col col-xs col-sm text-center">
+                  <img src="./images/logo1.png" width="137px" />
+                  <h6>&copy; 2023 Sunfeast Yippee.</h6>
+                  <h6>All Rights Reserved.</h6>
+                </div>
+                         
+                <div class="col-sm text-center">
+                  <ul type="none" style="text-align: center;">
+                    <li style="font-size: 25px; font-weight: bold; padding-bottom: 8px;">Noodles</li>
+                    <a href="#"><li style="padding-bottom: 8px;">Magic Masala</li></a>
+                    <a href="#"><li style="padding-bottom: 8px;">Mood Masala</li></a>
+                    <a href="#"><li style="padding-bottom: 8px;">Power Up Atta Noodles</li></a>
+                    <a href="#"><li style="padding-bottom: 8px;">Quik Mealz Chicken Delight</li></a>
+                    <a href="#"><li style="padding-bottom: 8px;">Quik Mealz Veggiee Delight</li></a>
+                  </ul>
+                </div>
+                          
+                <div class="col-sm text-center">
+                  <ul type="none" style="text-align: center;">
+                    <li style="font-size: 25px; font-weight: bold; padding-bottom: 8px;">About</li>
+                    <a href="#"><li style="padding-bottom: 8px;">Company</li></a>
+                    <a href="#"><li style="padding-bottom: 8px;">FAQs</li></a>
+                    <a href="#"><li style="padding-bottom: 8px;">Terms and Conditions</li></a>
+                    <a href="#"><li style="padding-bottom: 8px;">Privacy Policy</li></a>
+                    <a href="#"><li style="padding-bottom: 8px;">ITC Store Locator</li></a>
+                  </ul>
+                </div>
+                        
+                <div class="col-sm text-center">
+                  <ul type="none" style="text-align: center;">
+                    <li style="font-size: 25px; font-weight: bold; padding-bottom: 8px;">Pasta</li>
+                    <a href="#"><li style="padding-bottom: 8px;">Pasta Treat Masala</li></a>
+                    <a href="#"><li style="padding-bottom: 8px;">Pasta Treat Tomato Cheese</li>
+                    <a href="#"><li style="padding-bottom: 8px;">Pasta Treat  Sour cream and <br/>Onion</li></a>
+                    <a href="#"><li style="padding-bottom: 8px;">Pasta Treat Cheese</li></a>
+                    <a href="#"><li style="padding-bottom: 8px;">Pasta Treat Masala</li></a>
+                    <a href="#"><li style="padding-bottom: 8px;">Tricolor Pasta creamy corn</li></a>
+                  </ul>
+                </div>     
+              
+                <div class="col-sm text-center">
+                  <a><img src="./images/itc-white(icon)2.png" width="65px" /></a>
+                </div>
+
+            </div>          
+          </div> 
+        </footer>
+        <!--footer end-->
+    
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
